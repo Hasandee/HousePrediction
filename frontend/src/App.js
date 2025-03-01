@@ -2,7 +2,6 @@ import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; 
 import PredictionForm from './PredictionForm';
-import StartPage from './StartPage';
 
 function App() {
  
@@ -12,8 +11,8 @@ function App() {
    
       <Routes>
 
-      <Route path="/" element={<StartPage />} />
-      <Route path="/predictform" element={<PredictionForm />} />
+     
+      <Route path="/" element={<PredictionForm />} />
 
         </Routes>
     </div>
